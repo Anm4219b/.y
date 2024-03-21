@@ -1,0 +1,208 @@
+*{
+    margin: 0;padding: 0;
+}
+h1 {
+    margin: -4px;
+    padding: -10px;
+    color: red;
+    font-size: 2rem; 
+    text-align: left;
+}
+ nav li{
+    margin: 40px;
+    font-weight: 900;
+    font-size: larger;
+   font-size: 19px;
+display: inline;
+}
+li a{
+    text-decoration: none;
+}
+header{
+   height: 5vh;
+background: url(https://t3.ftcdn.net/jpg/06/44/17/08/240_F_644170845_J3eYJkfPpqcp9bDZPL4rcBBG1H1e8rPZ.jpg);
+display: flex;
+
+}
+header a{
+  color: #fff;
+}
+#search1{height: 30px;
+width: 230px;
+background: #000;
+color: aliceblue;
+}
+
+#search2{
+    border: 1px solid rgb(10, 52, 68);
+    font-family: cursive;
+    color:white;
+    background: red;
+    border: 1px solid black;
+    border-radius:1cm;
+  
+    border-top-left-radius:1cm;
+    border-bottom-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+   height: 38px;
+   width: 70px;}
+  #search09{
+    display: inline;
+    background: green;
+    color:white ;
+    height:38px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius:1cm;
+  
+    border-top-left-radius:1cm;
+    border-bottom-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+  }
+  #search08{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    background: green;
+    color: whitesmoke;
+    height:38px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius:1cm;
+  
+    border-top-left-radius:1cm;
+    border-bottom-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* three equal columns */
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+  
+  }
+  .grid-container img{
+   height: 90vh;
+    width: 30vw;
+  } 
+  .grid-item1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .grid-item1 img{
+    height: 40vh;
+  }
+  /*  Grid layout system */
+  
+
+  .container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 700px 640px; 
+    gap: 40px;
+  }
+  
+  .grid-item001 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-display: swap;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .grid-item001:nth-child(even) {
+    background-color: #d3d3d3;
+  }
+  
+  .grid-item001:hover {
+    background-color: #c3c3c3;
+  }
+  
+  .grid-item001 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item001 p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+   
+  }
+  .grid-item009 img{
+    height: 50vh;
+  }
+  .grid-item008 img{
+    height: 75vh;
+  }
+  article{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+  }
+  section {
+  background:url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) ;
+    
+}
+/* footer */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer .container {
+  max-width: 960px;
+}
+
+.footer .text-muted {
+  margin-bottom: 15px;
+}
+
+.footer .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer .list-inline-item {
+  margin-right: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+footer li{
+  display: inline;
+}
+#btn {
+  background-color: aqua;
+  color: #000;
+  border: 0;
+  font-style: italic;
+  cursor: pointer; /* Added to improve user experience */
+}
+
+/* Added for accessibility */
+#btn:focus {
+  outline: 2px solid #000;
+  outline-offset: 1px;
+}

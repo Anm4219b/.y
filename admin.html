@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    
+    
+    
+    .admin-login {
+        
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-top: 30px;
+        width: 20vw;
+    }
+    .admin-login form {
+        margin-top: 10px;
+    }
+    .admin-login label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .admin-login input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .admin-login input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 10px;
+        cursor: pointer;
+    }
+    .admin-login input[type="submit"]:hover {
+        background-color: #0056b3;
+    }</style>
+</head>
+<body>
+    <div class="admin-login">
+        <form action="/admin" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
